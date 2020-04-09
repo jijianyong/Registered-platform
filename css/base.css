@@ -1,0 +1,44 @@
+/* 统一样式 */
+p {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+}
+/* 左浮动 */
+.left {
+    float: left;
+}
+/* 右浮动 */
+.right {
+    float: right;
+}
+/* 引入文字样式 */
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.eot');
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../font/iconfont.woff2') format('woff2'),
+        url('../font/iconfont.woff') format('woff'),
+        url('../font/iconfont.ttf') format('truetype'),
+        url('../font/iconfont.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.top div {
+    line-height: 30px;
+}
+.top div p a {
+    color: #2da5e1;
+    margin-left: 10px;
+}
+
+
+

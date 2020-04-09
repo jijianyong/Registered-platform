@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/* 清除浮动 */
+.clearfix::after {
+    content: "";
+    display: block;
+    padding: 0;
+    line-height: 0;
+    clear: both;
+    zoom: 1;
+}
+/* 居中 */
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* 顶部 */
+.top {
+    height: 30px;
+    background-color: #f5f5f5;
+}
+/* 头部 */
+.header {
+    height: 92px;
+}
+/* 导航栏 */
+.nav {
+    height: 36px;
+    background-color: #60bff2;
+}
+/* 引导 */
+.banner {
+    width: 802px;
+    margin: 0 auto;
+    height: 414px;
+    padding: 9px 0px 0px 198px;
+}
+/* 幻灯片 */
+.banner-slider {
+    float: left;
+    width: 544px;
+    height: 414px;
+    background-color: #Bedff3;
+}
+.banner-search {
+    float: right;
+    width: 250px;
+    height: 255px;
+    background-color: #eee;
+}
+.banner-help {
+    float: right;
+    width: 250px;
+    height: 146px;
+    background-color: #ccc;
+    margin-top: 12px;
+}
+/* 内容 */
+.content {
+    padding: 10px 0 30px 0;
+}
+.content-tab {
+    float: left;
+    width: 742px;
+    height: 490px;
+    background-color: #eee;
+}
+.content-news,
+.content-close {
+    float: right;
+    width: 248px;
+    height: 236px;
+    border: 1px solid #ccc;
+}
+.content-close {
+    margin-top: 12px;
+    background-color: red;
+}
+/* 底部 */
+.footer {
+    height: 132px;
+    padding: 25px 0;
+    background-color: #eceef2;
+}
