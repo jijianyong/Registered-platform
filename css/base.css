@@ -7,6 +7,11 @@ p {
 a {
     text-decoration: none;
 }
+input,
+select {
+    border: none;
+    outline: none;
+}
 /* 左浮动 */
 .left {
     float: left;
@@ -32,6 +37,7 @@ a {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+/* #top 顶部内容样式 */
 .top div {
     line-height: 30px;
 }
@@ -39,6 +45,122 @@ a {
     color: #2da5e1;
     margin-left: 10px;
 }
+/* #header 头部内容样式 */
+.header .logo {
+    width: 102px;
+    height: 74px;
+    padding: 9px 0;
+    display: inline-block;
+}
+.header .logo img {
+    width: 102px;
+    height: 74px;
+}
+.header a:nth-child(2) {
+    position: absolute;
+    top: 40%;
+    color: #2da5e1;
+    font-size: 22px;
+}
+.header .search {
+    width: 326px;
+    height: 28px;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    background-color: orange;
+}
+/* #nav 导航栏内容样式 */
+.nav .link {
+    display: inline-block;
+    padding-left: 30px;
+    line-height: 36px;
+    color: #fff;
+}
+.nav a:hover {
+    color: #d7f3ff;
+}
+.nav .menu {
+    width: 130px;
+    padding-right: 30px;
+    position: relative;
+    background-color: #1fa4f0;
+    text-align: center;
+}
+.nav .menu .menu-list {
+    width: 100%;
+    height: 432px;
+    position: absolute;
+    top: 36px;
+    left: 0px;
+    background-color: #1fa4f0;
+}
+/* #banner 引导内容样式 */
+/* 幻灯片 */
+.banner .banner-slider {
+}
 
 
 
+/* 联动搜索 */
+.banner .banner-search {
+    background-color: #fafafa;
+}
+.banner .banner-help .caption,
+.banner .banner-search .caption {
+    height: 22px;
+    padding: 15px 0;
+    text-align: center;
+}
+.banner .banner-search .caption .text {
+    display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    color: #fec009;
+}
+.banner .banner-search .form {
+    height: 150px;
+    /* background-color: red; */
+}
+.banner .banner-search .form .line {
+    width: 250px;
+    /* background-color: saddlebrown; */
+    margin-top: 8px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, .7);
+}
+.banner .banner-search .form .line select {
+    width: 250px;
+    height: 30px;
+}
+.banner .banner-search .submit {
+    margin-top: 10px;
+    width: 250px;
+    height: 30px;
+    /* background-color: rosybrown; */
+}
+.banner .banner-search .submit .button {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 78px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #fec009;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* 帮助中心 */
+.banner .banner-help .caption {
+    color: #60bff2;
+}
+.banner .banner-help .list .link {
+    width: 86px;
+    height: 26px;
+    padding:0 0 8px 26px;
+    display: inline-block;
+    color: #00b3ea;
+    line-height: 26px;
+    font-size: 14px;
+}
