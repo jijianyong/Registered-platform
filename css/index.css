@@ -74,11 +74,10 @@ body {
     float: right;
     width: 248px;
     height: 236px;
-    border: 1px solid #ccc;
 }
 .content-close {
     margin-top: 12px;
-    background-color: red;
+    /* background-color: red; */
 }
 /* 底部 */
 .footer {
