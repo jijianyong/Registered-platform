@@ -7,13 +7,15 @@
     <title>医院挂号平台</title>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/ui.css">
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
 </head>
 
 <body>
     <!-- 顶部 -->
     <div id="top" class="top">
         <div class="wrap clearfix">
-            <p class="left"><span class="iconfont">&#xe681;</span>010-114/116114电话预约</p>
+            <p class="left"><span class="iconfont">&#xe64a;</span>010-114/116114电话预约</p>
             <p class="right">欢迎来到城市医院统一预约挂号平台&nbsp;<span>请</span>&nbsp;
                 <a href="#">登录</a>&nbsp;
                 <a href="#">注册</a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -26,7 +28,17 @@
         <div class="wrap clearfix">
             <a href="#" class="logo"><img src="./img/logo.png" alt="logo"></a>
             <a href="#">汕尾市人民医院挂号平台</a>
-            <div class="search"></div>
+            <!-- 搜索组件 -->
+            <div class="search ui-search">
+                <div class="ui-search-selected"><span>医院</span ><span class="iconfont">&#xe798;</span></div>
+                <div class="ui-search-select-list">
+                    <span>科室</span>
+                    <span>疾病</span>
+                    <span>医院</span>
+                </div>
+                <input type="text" name="search-content" class="ui-search-input" placeholder="请输入搜索内容">
+                <a href="#" class="iconfont ui-search-submit">&#xe612;</a>
+            </div>
         </div>
     </div>
     <!-- 导航栏 -->
@@ -121,12 +133,12 @@
                                 </div>
                             </div>
                             <div class="block-text-list clearfix">
-                                <a href="#" class="item">首都儿童医院XXXXXXXXXXX<span class="item-level">【三家医院】</span></a>
-                                <a href="#" class="item">首都儿童医院XXXXXXXXXXX<span class="item-level">【三家医院】</span></a>
-                                <a href="#" class="item">首都儿童医院XXXXXXXXXXX<span class="item-level">【三家医院】</span></a>
-                                <a href="#" class="item">首都儿童医院XXXXXXXXXXX<span class="item-level">【三家医院】</span></a>
-                                <a href="#" class="item">首都儿童医院XXXXXXXXXXX<span class="item-level">【三家医院】</span></a>
-                                <a href="#" class="item">首都儿童医院XXXXXXXXXXX<span class="item-level">【三家医院】</span></a>
+                                <a href="#" class="item">首都儿童医院XXXXXXXXXXX<span class="item-level">【三甲医院】</span></a>
+                                <a href="#" class="item">首都儿童医院XXXXXXXXXXX<span class="item-level">【三甲医院】</span></a>
+                                <a href="#" class="item">首都儿童医院XXXXXXXXXXX<span class="item-level">【三甲医院】</span></a>
+                                <a href="#" class="item">首都儿童医院XXXXXXXXXXX<span class="item-level">【三甲医院】</span></a>
+                                <a href="#" class="item">首都儿童医院XXXXXXXXXXX<span class="item-level">【三甲医院】</span></a>
+                                <a href="#" class="item">首都儿童医院XXXXXXXXXXX<span class="item-level">【三甲医院】</span></a>
                             </div>
                             <a href="#" class="block-more">更多医院</a>
                         </div>
@@ -176,8 +188,9 @@
     </div>
     <!-- 底部 -->
     <div id="footer" class="footer">
-
+        XXX@copyright
     </div>
+    <script src="./javaScript/ui.js"></script>
 </body>
 
 </html>

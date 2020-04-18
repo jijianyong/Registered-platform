@@ -1,0 +1,70 @@
+/* 搜索 */
+.ui-search {
+    width: 326px;
+    height: 38px;
+    color: #ffffff;
+    font-size: 14px;
+    position: relative;
+}
+.ui-search-selected {
+    width: 70px;
+    height: 38px;
+    background-color: rgba(235, 150, 14, 0.712);
+    line-height: 38px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.ui-search-selected span:first-child {
+    position: absolute;
+    left: 10px;
+}
+.ui-search-selected span:last-child {
+    position: absolute;
+    left: 45px;
+    top: 1px;
+}
+.ui-search-select-list {
+    position: absolute;
+    line-height: 24px;
+    background-color: rgb(126, 121, 121);
+    z-index: 2;
+    display: none;
+}
+.ui-search-select-list span {
+    box-sizing: border-box;
+    display: block;
+    width: 70px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.ui-search-select-list span:hover {
+    background: rgba(233, 229, 229, 0.7);
+}
+.ui-search-input {
+    box-sizing: border-box;
+    position: absolute;
+    width: 216px;
+    height: 38px;
+    left: 70px;
+    top: 0px;
+    padding-left: 5px;
+    border-bottom: 1px solid rgba(243, 151, 3, 0.712);
+    border-top: 1px solid rgba(243, 151, 3, 0.712);
+}
+.ui-search-submit {
+    position: absolute;
+    width: 40px;
+    height: 38px;
+    right: 0;
+    top: 0;
+    background-color: rgba(235, 150, 14, 0.712);
+    font-size: 25px;
+    text-align: center;
+    line-height: 38px;
+    color: #ffffff;
+    border-radius: 3px;
+}
+
+
+
+

@@ -68,7 +68,7 @@ select {
     position: absolute;
     top: 30px;
     right: 0px;
-    background-color: orange;
+    /* background-color: orange; */
 }
 /* #nav 导航栏内容样式 */
 .nav .link {
@@ -270,10 +270,6 @@ select {
     float: right;
 }
 
-
-
-
-
 /* 新闻 */
 .content .content-news .newTop {
     height: 38px;
@@ -335,4 +331,9 @@ select {
 }
 .content .content-close .closeBottom ol li a {
     color: rgba(80, 75, 75, 0.8);
+}
+
+/* 底部声明 */
+.footer {
+    text-align: center;
 }
